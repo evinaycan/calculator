@@ -1,0 +1,35 @@
+.calculator{
+     border: solid black 1px;
+     margin: auto;
+     color: black;
+     text-align: left;
+     font-family:'Times New Roman', Times, serif;
+     font-size:20px;
+     height: 380;
+     width: 400;
+     box-shadow:inset;
+     font-weight: bold;
+
+}
+/* calculator header */
+#caption{
+     border-style:inset; 
+     font-size: medium;
+     border: solid black 3px;
+}
+
+/* display-box which has id 'result' */
+#result {
+     border: solid black 3px;
+ }
+
+input[type=button] {
+     font-family: sans-serif;
+     background-color:gray;
+     color: black;
+     border: solid black 3px;
+     border-style: double;
+     width: 90%;
+     height: 70%;
+     font-size:medium;
+     }
